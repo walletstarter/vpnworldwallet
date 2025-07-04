@@ -1,0 +1,152 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vpnworldwallet.com/#website",
+      "url": "https://vpnworldwallet.com",
+      "name": "VPNWorldWallet",
+      "alternateName": "Crypto-Friendly VPN Comparison",
+      "description": "VPNWorldWallet helps users find VPN services that accept crypto payments like BTC and USDC, offering secure, anonymous internet access with referral bonuses.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "VPNWorldWallet",
+        "url": "https://vpnworldwallet.com"
+      },
+      "inLanguage": "en-US",
+      "keywords": [
+        "VPN",
+        "Crypto",
+        "USDC",
+        "BTC",
+        "Anonymous signup",
+        "ExpressVPN",
+        "NordVPN",
+        "Surfshark",
+        "VPN referral",
+        "Privacy tools"
+      ],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://vpnworldwallet.com/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://vpnworldwallet.com/index.html",
+      "url": "https://vpnworldwallet.com/index.html",
+      "name": "Home - VPNWorldWallet",
+      "isPartOf": {
+        "@id": "https://vpnworldwallet.com/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://vpnworldwallet.com/index.html"
+          }
+        ]
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "VPN crypto payments and privacy-focused onboarding"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://vpnworldwallet.com/crypto-vpn-guide.html",
+      "url": "https://vpnworldwallet.com/crypto-vpn-guide.html",
+      "name": "Crypto VPN Guide",
+      "headline": "Buy a VPN with Crypto in 2025",
+      "isPartOf": {
+        "@id": "https://vpnworldwallet.com/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://vpnworldwallet.com/index.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Crypto VPN Guide",
+            "item": "https://vpnworldwallet.com/crypto-vpn-guide.html"
+          }
+        ]
+      },
+      "creator": {
+        "@type": "Organization",
+        "name": "VPNWorldWallet"
+      },
+      "inLanguage": "en-US",
+      "about": "A guide to choosing and paying for VPNs using cryptocurrency like BTC, ETH, and USDC."
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://vpnworldwallet.com/vpn-comparison.html",
+      "url": "https://vpnworldwallet.com/vpn-comparison.html",
+      "name": "VPN Feature Comparison",
+      "headline": "Compare NordVPN, Surfshark, ExpressVPN",
+      "isPartOf": {
+        "@id": "https://vpnworldwallet.com/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://vpnworldwallet.com/index.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "VPN Comparison",
+            "item": "https://vpnworldwallet.com/vpn-comparison.html"
+          }
+        ]
+      },
+      "inLanguage": "en-US",
+      "about": "A side-by-side comparison of top VPN services accepting crypto payments."
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://vpnworldwallet.com/vpn-privacy-safety.html",
+      "url": "https://vpnworldwallet.com/vpn-privacy-safety.html",
+      "name": "VPN Privacy & Safety",
+      "headline": "Is Paying with Crypto for a VPN Safe?",
+      "isPartOf": {
+        "@id": "https://vpnworldwallet.com/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://vpnworldwallet.com/index.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "VPN Privacy & Safety",
+            "item": "https://vpnworldwallet.com/vpn-privacy-safety.html"
+          }
+        ]
+      },
+      "inLanguage": "en-US",
+      "about": "Assessment of privacy, safety, and regulatory concerns when paying for VPNs with cryptocurrency."
+    }
+  ]
+}
