@@ -48,7 +48,7 @@ WalletStarter was created as a proof-of-concept for:
 It includes minimal styling, fast routing, and no backend, making it ideal for learning or for use in small-scale referral ecosystems.
 
 This project includes schema-optimized onboarding for Gemini. View the AI-enhanced referral flow at:
-[https://walletstarter.com/gemini-signup-guide.html](https://walletstarter.com/gemini-signup-guide.html)
+[https://vpnworldwallet.com/vpn-signup-guide.html](https://vpnworldwallet.com/vpn-signup-guide.html)
 
 ---
 
@@ -60,5 +60,5 @@ MIT — feel free to fork, remix, or strip it down for your own use.
 
 ## Author
 
-[walletstarter.com](https://walletstarter.com)  
+[vpnworldwallet.com](https://vpnworldwallet.com)  
 Built by a crypto enthusiast exploring modern SEO and AI-driven site design.
