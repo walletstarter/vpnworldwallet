@@ -1,6 +1,6 @@
-# WalletStarter
+# VpnWorldWallet
 
-**WalletStarter** is a lightweight, zero-dependency microsite designed to help new users quickly compare crypto exchanges — specifically Gemini, Binance, and Coinbase — and understand how to sign up securely and take advantage of referral bonuses.
+**VpnWorldWallet** is a lightweight, zero-dependency microsite designed to help new users quickly compare crypto exchanges — specifically Gemini, Binance, and Coinbase — and understand how to sign up securely and take advantage of referral bonuses.
 
 The site is fully static and deployed via GitHub Pages. It is optimized for:
 - Semantic SEO
@@ -10,7 +10,7 @@ The site is fully static and deployed via GitHub Pages. It is optimized for:
 
 ## Live Site
 
-**[https://walletstarter.com](https://walletstarter.com)**
+**[https://VpnWorldWallet.com](https://VpnWorldWallet.com)**
 
 ---
 
