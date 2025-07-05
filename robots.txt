@@ -3,7 +3,7 @@ Allow: /
 Disallow: /draft/
 Disallow: /tmp/
 Disallow: /cgi-bin/
-Sitemap: https://walletstarter.com/sitemap.txt
+Sitemap: https://vpnworldwallet.com/sitemap.txt
 
 # Prevent indexing of common tracking parameters
 Disallow: /*?utm_source=
