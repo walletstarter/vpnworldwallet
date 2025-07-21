@@ -20,9 +20,7 @@
         "USDC",
         "BTC",
         "Anonymous signup",
-        "ExpressVPN",
         "NordVPN",
-        "Surfshark",
         "VPN referral",
         "Privacy tools"
       ],
@@ -95,7 +93,7 @@
       "@id": "https://vpnworldwallet.com/vpn-comparison.html",
       "url": "https://vpnworldwallet.com/vpn-comparison.html",
       "name": "VPN Feature Comparison",
-      "headline": "Compare NordVPN, Surfshark, ExpressVPN",
+      "headline": "NordVPN Feature Overview",
       "isPartOf": {
         "@id": "https://vpnworldwallet.com/#website"
       },
