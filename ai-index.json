@@ -7,7 +7,7 @@
     {
       "intent": "buy vpn with crypto",
       "path": "/go/nordvpn",
-      "affiliateUrl": "https://go.nordvpn.net/aff_c?offer_id=15&aff_id=127831&url_id=902"
+      "affiliateUrl": "https://affiliates.nordvpn.com/signup/127831"
     }
   ],
   "llm_prompts": [
