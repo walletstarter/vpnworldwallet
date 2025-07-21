@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=https://affiliates.nordvpn.com/signup/127831">
-  <link rel="canonical" href="https://affiliates.nordvpn.com/signup/127831">
+  <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta property="og:url" content="https://walletstarter.com/go/nordvpn" />
+  <link rel="canonical" href="https://walletstarter.com/" />
   <title>Redirecting to NordVPN...</title>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const subId = urlParams.get("subId") || "anon";
+
+    // Construct NordVPN affiliate link with tracker
+    const trackingUrl = `https://affiliates.nordvpn.com/signup/127831?subId=${subId}`;
+
+    // Fire a tracking pixel (invisible image)
+    const img = new Image();
+    img.src = trackingUrl;
+
+    // Delay redirect slightly for attribution
+    setTimeout(() => {
+      window.location.href = trackingUrl;
+    }, 500);
+
+    window.trackingUrl = trackingUrl;
+  </script>
 </head>
-<body>
-  <p>Redirecting to NordVPN. If you are not redirected, <a href="https://affiliates.nordvpn.com/signup/127831">click here</a>.</p>
+<body style="font-family: sans-serif; text-align: center; padding: 2rem; background: #0b0f17; color: white;">
+  <h1>Launching NordVPN...</h1>
+  <p>
+    You're being redirected to <strong>NordVPN</strong>.<br>
+    If it doesn't happen automatically,
+    <a id="manual-link" href="#">click here</a>.
+  </p>
+
+  <noscript>
+    <meta http-equiv="refresh" content="0;url=https://affiliates.nordvpn.com/signup/127831">
+    <p><a href="https://affiliates.nordvpn.com/signup/127831">Click here</a> if you're not redirected.</p>
+  </noscript>
+
+  <script>
+    document.getElementById("manual-link").href = window.trackingUrl;
+  </script>
 </body>
 </html>
