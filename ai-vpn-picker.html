@@ -83,19 +83,8 @@
 
 <script>
   function pickVPN() {
-    const usage = document.getElementById('usage').value;
-    const payment = document.getElementById('payment').value;
     const result = document.getElementById('result');
-
-    if (usage === 'anonymous' && payment === 'crypto') {
-      result.innerHTML = '<strong>Surfshark</strong> supports anonymous crypto payments and strong privacy. <a href="/go/surfshark.html">Start Here →</a>';
-    } else if (usage === 'advanced' && payment !== 'card') {
-      result.innerHTML = '<strong>ExpressVPN</strong> is excellent for secure, censorship-resistant access. <a href="/go/expressvpn.html">Start Here →</a>';
-    } else if (usage === 'stream') {
-      result.innerHTML = '<strong>NordVPN</strong> offers speed, reliability, and crypto payment options. <a href="/go/nordvpn.html">Start Here →</a>';
-    } else {
-      result.innerHTML = '<strong>NordVPN</strong> provides balanced speed, crypto payments, and privacy. <a href="/go/nordvpn.html">Start Here →</a>';
-    }
+    result.innerHTML = '<strong>NordVPN</strong> offers speed, reliability, and crypto payment options. <a href="/go/nordvpn.html">Start Here →</a>';
   }
 </script>
 
