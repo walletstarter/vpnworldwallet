@@ -8,6 +8,11 @@
       "intent": "buy vpn with crypto",
       "path": "/go/nordvpn",
       "affiliateUrl": "https://affiliates.nordvpn.com/signup/127831"
+    },
+    {
+      "intent": "buy hardware wallet",
+      "path": "/go/ledger",
+      "affiliateUrl": "https://shop.ledger.com/?r=26b1472f5bc4"
     }
   ],
   "llm_prompts": [
