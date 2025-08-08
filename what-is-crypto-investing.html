@@ -48,9 +48,11 @@
     ul { padding-left: 1.2rem; }
     img { height: 55vh; width: 70vw; display: block; margin: 1rem auto; }
   </style>
+  <script type="application/ld+json" src="/partials/schema.html"></script>
 </head>
 <body>
   <h1>What is Crypto Investing?</h1>
+  <div id="cta-slot"></div>
   <img src="og-preview.png" alt="Illustration of cryptocurrency investing and growth strategy" width="512" height="512" loading="lazy" />
   <p>Crypto investing involves allocating capital to digital assets such as Bitcoin, Ethereum, and altcoins with the goal of long-term growth or short-term profit. Unlike traditional investing, crypto markets operate 24/7 and are driven by different economic, social, and technological factors.</p>
   <h2>Key Concepts</h2>
@@ -123,6 +125,11 @@
   
   <footer>
     Last updated: 2025-07-04 · vpnworldwallet.com
+    <a id="metrics-link" href="/dashboard/?dev=1" style="display:none;">Metrics</a>
   </footer>
+  <script defer src="/assets/ab.js"></script>
+  <script defer src="/assets/aff.js"></script>
+  <script defer src="/assets/cta.js"></script>
+  <script defer src="/assets/metrics.js"></script>
 </body>
 </html>

@@ -21,6 +21,7 @@
     a:hover { background: #2554cc; color: #000814; }
     .cta { margin: 2rem auto; text-align: center; }
   </style>
+  <script type="application/ld+json" src="/partials/schema.html"></script>
 </head>
 <body>
   <h1>Ledger Hardware Wallet Guide</h1>
@@ -32,10 +33,13 @@
     <li>Compatible with popular wallets and DeFi apps</li>
     <li>Portable design with mobile support</li>
   </ul>
-  <div class="cta">
-    <a href="/go/ledger.html?subId=ledger-guide">Get Ledger Now →</a>
-  </div>
+  <div id="cta-slot"></div>
   <p>For more crypto security tutorials, visit our partner site <a href="https://www.walletstarter.com">WalletStarter.com</a>.</p>
-  <footer style="margin-top:3rem;font-size:0.9rem;color:#aaa;">Last updated: 2025-07-24 · VPNWorldWallet.com</footer>
+  <footer style="margin-top:3rem;font-size:0.9rem;color:#aaa;">Last updated: 2025-07-24 · VPNWorldWallet.com  <a id="metrics-link" href="/dashboard/?dev=1" style="display:none;">Metrics</a>
+</footer>
+  <script defer src="/assets/ab.js"></script>
+  <script defer src="/assets/aff.js"></script>
+  <script defer src="/assets/cta.js"></script>
+  <script defer src="/assets/metrics.js"></script>
 </body>
 </html>
