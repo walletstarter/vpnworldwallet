@@ -57,9 +57,11 @@
       border-radius: 8px;
     }
   </style>
+  <script type="application/ld+json" src="/partials/schema.html"></script>
 </head>
 <body>
   <h1>Find the Best VPN for Crypto</h1>
+  <div id="cta-slot"></div>
   <div class="wizard">
     <label for="usage">How will you use your VPN?</label>
     <select id="usage">
@@ -92,6 +94,11 @@
     <a href="index.html" style="color: #2554cc; text-decoration: none;">Home</a> ·
     <a href="crypto-vpn-guide.html" style="color: #2554cc; text-decoration: none;">Crypto VPN Guide</a> ·
     <a href="site-map.html" style="color: #2554cc; text-decoration: none;">Sitemap</a>
+    <a id="metrics-link" href="/dashboard/?dev=1" style="display:none;">Metrics</a>
   </footer>
+  <script defer src="/assets/ab.js"></script>
+  <script defer src="/assets/aff.js"></script>
+  <script defer src="/assets/cta.js"></script>
+  <script defer src="/assets/metrics.js"></script>
 </body>
 </html>

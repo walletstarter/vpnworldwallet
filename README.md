@@ -62,3 +62,26 @@ MIT — feel free to fork, remix, or strip it down for your own use.
 
 [vpnworldwallet.com](https://vpnworldwallet.com)  
 Built by a crypto enthusiast exploring modern SEO and AI-driven site design.
+
+## Funnel Enhancements (2025)
+
+- Instant affiliate redirects with robust fallback to boost CTR.
+- Unique `clickid` appended as `subId` and `clickref`, forwarding existing UTM parameters.
+- Sticky A/B testing (`ab_ws` cookie) swaps CTA variants for experimentation.
+- Client-side metrics stored locally and viewable via a dashboard.
+
+### Local A/B Toggle
+
+Force a variant in the browser console:
+
+```js
+document.cookie = 'ab_ws=A;path=/';
+```
+
+### Metrics Dashboard
+
+Browse to `/dashboard/?dev=1` to see click totals and export `ws_clicks_YYYYMMDD.csv`.
+
+### Verifying clickid
+
+Right-click any CTA, copy the link, and ensure the URL contains `subId=` and `clickref=` with the same ID.

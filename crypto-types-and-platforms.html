@@ -84,9 +84,11 @@
     ul { padding-left: 1.2rem; }
     img { height: 55vh; width: 70vw; display: block; margin: 1rem auto; }
   </style>
+  <script type="application/ld+json" src="/partials/schema.html"></script>
 </head>
 <body>
   <h1>Types of Cryptocurrency and Where to Buy Them</h1>
+  <div id="cta-slot"></div>
   <img src="android-chrome-512x512.png" alt="Visual guide to crypto types and supported platforms" width="512" height="512" loading="lazy" />
   <p>There are thousands of cryptocurrencies in existence today, each serving different purposes from payment networks to smart contract execution to privacy enhancement. Here are the major categories and where to buy them:</p>
   <h2>Common Types of Crypto</h2>
@@ -165,6 +167,11 @@
   
   <footer>
     Last updated: 2025-05-20 · vpnworldwallet.com
+    <a id="metrics-link" href="/dashboard/?dev=1" style="display:none;">Metrics</a>
   </footer>
+  <script defer src="/assets/ab.js"></script>
+  <script defer src="/assets/aff.js"></script>
+  <script defer src="/assets/cta.js"></script>
+  <script defer src="/assets/metrics.js"></script>
 </body>
 </html>

@@ -1,0 +1,40 @@
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"Organization",
+      "name":"VPNWorldWallet",
+      "url":"https://vpnworldwallet.com",
+      "logo":"https://vpnworldwallet.com/android-chrome-512x512.png"
+    },
+    {
+      "@type":"WebSite",
+      "url":"https://vpnworldwallet.com",
+      "name":"VPNWorldWallet",
+      "potentialAction":{
+        "@type":"SearchAction",
+        "target":"https://vpnworldwallet.com/?q={search_term_string}",
+        "query-input":"required name=search_term_string"
+      }
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"How do I open a Gemini account?","acceptedAnswer":{"@type":"Answer","text":"Visit Gemini and complete the quick signup form."}},
+        {"@type":"Question","name":"How long does KYC take?","acceptedAnswer":{"@type":"Answer","text":"Most users are verified within minutes after submitting ID."}},
+        {"@type":"Question","name":"How do I fund my account?","acceptedAnswer":{"@type":"Answer","text":"Transfer crypto or connect a bank to deposit USD."}},
+        {"@type":"Question","name":"Is my data secure?","acceptedAnswer":{"@type":"Answer","text":"Gemini uses industry-standard encryption and cold storage."}},
+        {"@type":"Question","name":"Can I withdraw immediately?","acceptedAnswer":{"@type":"Answer","text":"Yes, once your bank transfer clears or crypto arrives."}}
+      ]
+    },
+    {
+      "@type":"HowTo",
+      "name":"How to sign up and fund",
+      "step":[
+        {"@type":"HowToStep","name":"Create an account","url":"https://vpnworldwallet.com/vpn-signup-guide.html"},
+        {"@type":"HowToStep","name":"Verify identity","url":"https://vpnworldwallet.com/vpn-signup-guide.html#kyc"},
+        {"@type":"HowToStep","name":"Deposit funds","url":"https://vpnworldwallet.com/vpn-signup-guide.html#deposit"}
+      ]
+    }
+  ]
+}

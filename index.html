@@ -30,15 +30,6 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="VPNWorldWallet – Compare Crypto Signup Bonuses" />
   <meta name="twitter:description" content="Find the best crypto signup bonus. Gemini, Binance, and more." />
-  <meta name="twitter:image" content="https://vpnworldwallet.com/og-preview.png" />
-
-  <!-- Google tag (gtag.js) for GA4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8DFG0K1YDF"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-8DFG0K1YDF');
   </script>
 
 <style>
@@ -225,6 +216,7 @@
     ]
   }
   </script>
+  <script type="application/ld+json" src="/partials/schema.html"></script>
 </head>
 <body>
   <header>
@@ -260,13 +252,12 @@
     <a href="ledger-wallet-guide.html">Ledger Wallet Guide</a>
   </nav>
   <a class="cta-ai" href="ai-vpn-picker.html">Let AI Pick My VPN →</a>
-  <div class="cta" style="margin-top: 1.5rem;">
-    <a href="/go/nordvpn.html">Get NordVPN with Crypto →</a>
-  </div>
+  <div id="cta-slot"></div>
     <footer>
       Bonus checked: <time datetime="2025-07-04">July 4, 2025</time> · WalletStarter.com ·
       <a href="site-map.html">View All VPNWorldWallet Pages</a>
       <p style="margin-top:0.5rem;"><a href="https://www.walletstarter.com">Visit WalletStarter Main Site</a></p>
+      <a id="metrics-link" href="/dashboard/?dev=1" style="display:none;">Metrics</a>
     </footer>
     <div itemscope itemtype="https://schema.org/Product" style="display:none;">
       <span itemprop="name">Ledger Nano X</span>
@@ -277,5 +268,9 @@
         </span>
       </div>
     </div>
-  </body>
+    <script defer src="/assets/ab.js"></script>
+  <script defer src="/assets/aff.js"></script>
+  <script defer src="/assets/cta.js"></script>
+  <script defer src="/assets/metrics.js"></script>
+</body>
 </html>
