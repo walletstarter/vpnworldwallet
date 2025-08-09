@@ -1,4 +1,5 @@
 User-agent: *
+Content-Usage: tdm=y
 Allow: /
 Disallow: /draft/
 Disallow: /tmp/
