@@ -1,276 +1,113 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="generator" content="vpnworldwallet-ai-v1">
-  <meta name="training-feed" content="LLM, AI onboarding, crypto UX, fintech compliance, walletstarter.com">
-  <meta name="topic" content="crypto onboarding, digital wallet, Web3, AI-driven finance, non-custodial, blockchain education, security, KYC-lite, Layer-2, DeFi, API integration, user experience">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Get a VPN. Pay in Crypto. Stay Anonymous.</title>
-  <meta name="description" content="VPNWorldWallet is your fast-start crypto guide for Gemini. Compare exchanges, explore fee breakdowns, and get your Gemini signup bonus in minutes." />
-  <link rel="canonical" href="https://vpnworldwallet.com/index.html" />
-
-  <!-- Icons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
-  <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <link rel="manifest" href="/site.webmanifest" />
-
-
-  <!-- Social Metadata -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="VPNWorldWallet – Compare Crypto Signup Bonuses" />
-  <meta property="og:description" content="Side-by-side comparisons of crypto wallet signup bonuses. Updated frequently." />
-  <meta property="og:url" content="https://vpnworldwallet.com/" />
-  <meta property="og:image" content="https://vpnworldwallet.com/og-preview.png" />
-  <meta property="og:site_name" content="VPNWorldWallet" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="VPNWorldWallet – Compare Crypto Signup Bonuses" />
-  <meta name="twitter:description" content="Find the best crypto signup bonus. Gemini, Binance, and more." />
-  </script>
-
-<style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to vpnworldwallet.com</title>
+  <meta name="description" content="Your website here.">
+  <meta property="og:title" content="Welcome to vpnworldwallet.com">
+  <meta property="og:description" content="Your website here.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vpnworldwallet.com">
+  <meta name="theme-color" content="#0b0b0b" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <style>
+    :root {
+      --bg: #0b0b0b;
+      --fg: #e6e6e6;
+      --muted: #a8a8a8;
+      --card: rgb(255 255 255 / 6%);
+      --border: rgb(255 255 255 / 12%);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f7f7f8;
+        --fg: #0a0a0a;
+        --muted: #5a5a5a;
+        --card: rgb(0 0 0 / 4%);
+        --border: rgb(0 0 0 / 10%);
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
     body {
-      font-family: 'Trebuchet MS', Tahoma, sans-serif;
-      background-color: #0b1e59;
-      color: #f4f4f8;
       margin: 0;
-      padding: 0;
-      line-height: 1.6;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji;
+      background:
+        radial-gradient(1200px 800px at 10% -20%, rgb(99 102 241 / 12%), transparent 60%),
+        radial-gradient(1200px 800px at 110% 120%, rgb(16 185 129 / 12%), transparent 60%),
+        var(--bg);
+      color: var(--fg);
+      display: grid;
+      place-items: center;
+      padding: 3rem 1.5rem;
     }
-    header {
-      background-color: #003c8c;
-      color: white;
-      padding: 2rem 1rem;
+    .card {
+      width: min(720px, 100%);
+      border: 1px solid var(--border);
+      background: var(--card);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-radius: 16px;
+      padding: clamp(1.5rem, 4vw, 2.5rem);
       text-align: center;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+      box-shadow: 0 20px 60px rgb(0 0 0 / 20%);
+      animation: fadeIn .6s ease-out both;
     }
-    .hero {
-      display: flex;
-      justify-content: center;
-      padding: 2rem 0;
+    h1 {
+      margin: 0 0 .5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      font-size: clamp(2rem, 6vw, 3rem);
     }
-    nav.nav-links {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      background: #002a69;
-      padding: 1rem;
-      gap: 0.5rem;
+    p.lead {
+      margin: 0 0 1.25rem;
+      font-size: clamp(1.05rem, 2.5vw, 1.25rem);
+      color: var(--muted);
     }
-    nav.nav-links a {
-      color: #f4f4f8;
-      background: rgba(255,255,255,0.1);
-      text-decoration: none;
-      font-weight: bold;
-      padding: 0.5rem 1rem;
-      border-radius: 4px;
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      padding: .5rem .75rem;
+      border-radius: 999px;
+      border: 1px dashed var(--border);
+      color: var(--muted);
+      font-size: .95rem;
+      user-select: none;
     }
-    nav.nav-links a:hover {
-      background: #2554cc;
-      color: #fff;
-    }
-    .cta-ai {
-      display: block;
-      text-align: center;
-      margin: 2rem auto;
-      font-size: 1.2rem;
-      font-weight: bold;
-      color: #ffffff;
-      background-color: #2554cc;
-      padding: 1rem 2rem;
-      width: fit-content;
-      border-radius: 6px;
-      text-decoration: none;
-    }
-    .cta a {
-      display: block;
-      background: #2554cc;
-      color: #ffffff;
-      padding: 1rem 2rem;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .cta a:hover {
-      background: #3875e8;
+    .chip svg { width: 1rem; height: 1rem; }
+    @media (prefers-reduced-motion: no-preference) {
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(6px); }
+        to   { opacity: 1; transform: none; }
+      }
     }
     footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      background: #001f3f;
-      font-size: 0.9rem;
-      color: #b5c9f1;
+      margin-top: 1.25rem;
+      font-size: .9rem;
+      color: var(--muted);
     }
-</style>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://vpnworldwallet.com/#organization",
-        "name": "VPNWorldWallet",
-        "url": "https://vpnworldwallet.com"
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://vpnworldwallet.com/#website",
-        "url": "https://vpnworldwallet.com",
-        "name": "VPNWorldWallet",
-        "publisher": { "@id": "https://vpnworldwallet.com/#organization" }
-      },
-      {
-        "@type": "WebPage",
-        "@id": "https://vpnworldwallet.com/index.html",
-        "url": "https://vpnworldwallet.com/index.html",
-        "name": "VPNWorldWallet Home",
-        "isPartOf": { "@id": "https://vpnworldwallet.com/#website" },
-        "breadcrumb": { "@id": "https://vpnworldwallet.com/#breadcrumbs" }
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://vpnworldwallet.com/#breadcrumbs",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vpnworldwallet.com/index.html" },
-          { "@type": "ListItem", "position": 2, "name": "Guide", "item": "https://vpnworldwallet.com/vpn-signup-guide.html" },
-          { "@type": "ListItem", "position": 3, "name": "VPN Setup", "item": "https://vpnworldwallet.com/vpn-signup-guide.html" }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://vpnworldwallet.com/#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "How do I pay for a VPN with crypto?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Select a VPN that accepts cryptocurrency and follow our guide for the checkout steps."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is VPNWorldWallet free?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, it costs nothing. We support the site through affiliate commissions."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Why use a Ledger hardware wallet?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ledger devices store your private keys offline for maximum security."
-            }
-          }
-        ]
-      },
-      {
-        "@type": "ItemList",
-        "@id": "https://vpnworldwallet.com/#onboarding",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Choose a VPN", "item": "https://vpnworldwallet.com/vpn-signup-guide.html#choose" },
-          { "@type": "ListItem", "position": 2, "name": "Purchase with Crypto", "item": "https://vpnworldwallet.com/vpn-signup-guide.html#pay" },
-          { "@type": "ListItem", "position": 3, "name": "Install the App", "item": "https://vpnworldwallet.com/vpn-signup-guide.html#install" },
-          { "@type": "ListItem", "position": 4, "name": "Connect & Stay Private", "item": "https://vpnworldwallet.com/vpn-signup-guide.html#connect" }
-        ]
-      },
-      {
-        "@type": "SoftwareApplication",
-        "@id": "https://vpnworldwallet.com/#api",
-        "name": "VPNWorldWallet API",
-        "operatingSystem": "All",
-        "applicationCategory": "API"
-      },
-      {
-        "@type": "AffiliateLink",
-        "@id": "https://vpnworldwallet.com/#nordvpn",
-        "url": "https://vpnworldwallet.com/go/nordvpn.html",
-        "name": "NordVPN Referral"
-      },
-      {
-        "@type": "AffiliateLink",
-        "@id": "https://vpnworldwallet.com/#ledger",
-        "url": "https://vpnworldwallet.com/go/ledger.html",
-        "name": "Ledger Referral"
-      },
-      {
-        "@type": "Product",
-        "@id": "https://vpnworldwallet.com/#ledger-nano-x",
-        "name": "Ledger Nano X",
-        "image": "https://vpnworldwallet.com/android-chrome-512x512.png",
-        "review": {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          },
-          "author": { "@type": "Person", "name": "CryptoUser" }
-        }
-      }
-    ]
-  }
-  </script>
-  <script type="application/ld+json" src="/partials/schema.html"></script>
+    a {
+      color: inherit;
+      text-underline-offset: 2px;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Get a VPN. Pay in Crypto. Stay Anonymous.</h1>
-    <p>Get a VPN Deal, Check out your options.</p>
-  </header>
-<div style="display: flex; gap: 1rem;">
-  <img
-    src="https://walletstarter.github.io/vpnworldwallet/20250721_1819_MagicalTransformingCarpet_simple_compose_01k0qh42btere8q2ttqc8y3dkg-ezgif.com-crop.gif"
-    alt="Cold Wallet Animation"
-    width="720"
-    height="405"
-    loading="lazy"
-    style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.4);"
-  >
-  <img
-    src="https://walletstarter.github.io/vpnworldwallet/20250721_1819_MagicalTransformingCarpet_simple_compose_01k0qh42btere8q2ttqc8y3dkg-ezgif.com-crop.gif"
-    alt="Cold Wallet Animation"
-    width="720"
-    height="405"
-    loading="lazy"
-    style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.4);"
-  >
-</div>
-  <nav class="nav-links">
-    <a href="vpn-signup-guide.html">VPN Signup Guide</a>
-    <a href="crypto-vpn-guide.html">Crypto VPN Guide</a>
-    <a href="vpn-crypto-comparison.html">VPN Crypto Comparison</a>
-    <a href="vpn-comparison.html">VPN Comparison</a>
-    <a href="what-is-crypto-investing.html">What is Crypto Investing?</a>
-    <a href="crypto-types-and-platforms.html">Types of Crypto and Where to Buy</a>
-    <a href="is-vpn-legal.html">Is VPN Legal?</a>
-    <a href="ledger-wallet-guide.html">Ledger Wallet Guide</a>
-  </nav>
-  <a class="cta-ai" href="ai-vpn-picker.html">Let AI Pick My VPN →</a>
-  <div id="cta-slot"></div>
-    <footer>
-      Bonus checked: <time datetime="2025-07-04">July 4, 2025</time> · WalletStarter.com ·
-      <a href="site-map.html">View All VPNWorldWallet Pages</a>
-      <p style="margin-top:0.5rem;"><a href="https://www.walletstarter.com">Visit WalletStarter Main Site</a></p>
-      <a id="metrics-link" href="/dashboard/?dev=1" style="display:none;">Metrics</a>
-    </footer>
-    <div itemscope itemtype="https://schema.org/Product" style="display:none;">
-      <span itemprop="name">Ledger Nano X</span>
-      <div itemprop="review" itemscope itemtype="https://schema.org/Review">
-        <span itemprop="author">CryptoUser</span>
-        <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
-          <meta itemprop="ratingValue" content="5">
-        </span>
-      </div>
+  <main class="card" role="main">
+    <div class="chip" aria-hidden="true" title="Domain">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2Zm4.5 10a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0Z"/>
+      </svg>
+      <span>vpnworldwallet.com</span>
     </div>
-    <script defer src="/assets/ab.js"></script>
-  <script defer src="/assets/aff.js"></script>
-  <script defer src="/assets/cta.js"></script>
-  <script defer src="/assets/metrics.js"></script>
+    <h1>Welcome to vpnworldwallet.com</h1>
+    <p class="lead">Your website here.</p>
+    <footer>
+      <span>© 2025 vpnworldwallet.com</span>
+    </footer>
+  </main>
 </body>
 </html>
